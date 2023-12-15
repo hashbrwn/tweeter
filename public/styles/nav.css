@@ -1,0 +1,38 @@
+nav {
+  height: 120px;
+  width: 100vw;
+  background-color: #4056a1;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.5em 0 1.5em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 4;
+}
+
+.logo {
+  font-family: "bungee", cursive;
+}
+
+.write-tweet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.write-a-tweet {
+  font-family: "Source Sans Pro", sans-serif;
+  margin-bottom: 1px;
+}
+
+.write-a-tweet span {
+  font-weight: bolder;
+}
+
+.write-tweet i {
+  color: red;
+}

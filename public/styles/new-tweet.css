@@ -1,0 +1,50 @@
+.new-tweet {
+  width: 100%;
+  /* padding: 2em 0; */
+
+  font-family: "Source Sans Pro", sans-serif;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+form label {
+  font-weight: bold;
+}
+form textarea {
+  background-color: inherit;
+  border: none;
+  border-bottom: solid #363535 4px;
+  padding-bottom: 0.00043px;
+  margin-bottom: 0.75em;
+  outline-width: 0;
+  font-size: 27px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+form button {
+  font-family: "bungee", cursive;
+  background-color: #4152a1;
+  height: 42px;
+  width: 110px;
+  color: white;
+  font-size: 27px;
+}
+
+.new-tweet-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.error {
+  color: red;
+  border: 3px solid red;
+  border-style: red;
+  display: none;
+}
+
+.counter {
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  font-family: "bungee", cursive;
+}
