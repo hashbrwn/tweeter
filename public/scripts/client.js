@@ -54,6 +54,7 @@ $(document).ready(function () {
       success: function () {
         $("#error").hide();
         loadTweets();
+        $(".counter").text(140);  
       },
     });
     this.reset();
@@ -112,6 +113,7 @@ const createTweetElement = function (tweet) {
 };
 
 const loadTweets = function () {
+  $("#tweets-container").empty();
   $.ajax({
     method: "GET",
     url: "/tweets",
@@ -119,3 +121,4 @@ const loadTweets = function () {
     renderTweets(tweets);
   });
 };
+
