@@ -32,6 +32,7 @@
 .message {
   width: 80%;
   margin: 0 5%;
+  overflow-wrap: break-word;
 }
 
 .tweet-footer {
